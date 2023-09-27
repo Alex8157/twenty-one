@@ -1,0 +1,30 @@
+.enemyCards{
+
+}
+
+.hiddenCards{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.hiddenCard{
+    width: 10vw;
+    height: 15vw;
+    border-radius: 1vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+@media screen and (max-width: 900px) {
+    .hiddenCard {
+        width: 22vw;
+        height: 33vw;
+        border-radius: 3vw;
+    }
+}

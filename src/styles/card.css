@@ -1,0 +1,33 @@
+.card{
+    width: 10vw;
+    height: 15vw;
+    border-radius: 1vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: rgb(58, 255, 58);
+}
+
+.blue{
+    background-color: rgb(74, 74, 255);
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 22vw;
+        height: 33vw;
+        border-radius: 3vw;
+    }
+}
